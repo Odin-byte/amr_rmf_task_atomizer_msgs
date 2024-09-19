@@ -1,0 +1,11 @@
+string item_id
+---
+bool success
+string message
+string task_id
+TaskStatus task_status
+string robot_id
+string pickup_station
+string dropoff_station
+bool pickup_done
+bool dropoff_done
