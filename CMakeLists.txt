@@ -14,8 +14,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TaskOverview.msg"
   "msg/TaskState.msg"
   "msg/TaskStatus.msg"
-  "srv/ItemDispatchRequest.srv"
-  "srv/ItemStatusRequest.srv"
+  "srv/ItemDispatch.srv"
+  "srv/ItemStatus.srv"
   DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
 )
 

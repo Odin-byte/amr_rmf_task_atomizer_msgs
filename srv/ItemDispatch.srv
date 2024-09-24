@@ -1,6 +1,5 @@
 string pickup_station
 string dropoff_station
-string item_name
 ---
 bool success
 string message
